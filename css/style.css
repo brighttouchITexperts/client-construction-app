@@ -3,7 +3,8 @@
     --primary: #E56B6B;
     --secondary: #5F656F;
     --light: #F5F5F5;
-    --dark: #8DC2FE;
+    --dark: #175030;
+    --gold: #9a7009;
 }
 
 .back-to-top {
@@ -19,7 +20,7 @@ h2,
 .h1,
 .h2,
 .fw-bold {
-    font-weight: 700 !important;
+    font-weight: 600 !important;
 }
 
 h3,
@@ -27,7 +28,7 @@ h4,
 .h3,
 .h4,
 .fw-medium {
-    font-weight: 600 !important;
+    font-weight: 500 !important;
 }
 
 h5,
@@ -35,7 +36,7 @@ h6,
 .h5,
 .h6,
 .fw-semi-bold {
-    font-weight: 500 !important;
+    font-weight: 400 !important;
 }
 
 
@@ -62,7 +63,7 @@ h6,
 
 .btn-primary,
 .btn-outline-primary:hover {
-    color: #FFFFFF;
+    color: var(--light);
 }
 
 .btn-square {
@@ -93,7 +94,7 @@ h6,
 
 .topbar-right {
     position: relative;
-    background: var(--primary);
+    background: var(--light);
 }
 
 .topbar-right::before {
@@ -104,7 +105,7 @@ h6,
     top: 0;
     left: -15px;
     transform: skewX(-30deg);
-    background-color: var(--primary);
+    background-color: var(--gold);
 }
 
 
@@ -120,7 +121,7 @@ h6,
     height: 75px;
     display: flex;
     align-items: center;
-    background: var(--primary);
+    background: var(--light);
 }
 
 .navbar .navbar-brand::after {
@@ -131,7 +132,7 @@ h6,
     top: 0;
     right: -25px;
     transform: skewX(-30deg);
-    background-color: var(--primary);
+    background-color: var(--light);
 }
 
 .navbar .navbar-nav .nav-link {
@@ -145,7 +146,7 @@ h6,
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--gold);
 }
 
 .navbar .dropdown-toggle::after {
@@ -196,7 +197,7 @@ h6,
     bottom: 0;
     display: flex;
     align-items: center;
-    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%);
+    background: linear-gradient(to right, var(--dark) 0%, rgba(2, 36, 91, 0) 100%);
     z-index: 1;
 }
 
@@ -209,8 +210,8 @@ h6,
 .carousel-control-next-icon {
     width: 3.5rem;
     height: 3.5rem;
-    background-color: var(--primary);
-    border: 15px solid var(--primary);
+    background-color: var(--gold);
+    border: 15px solid var(--gold);
     border-radius: 3.5rem;
 }
 
