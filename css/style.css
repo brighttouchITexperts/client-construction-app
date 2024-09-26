@@ -230,7 +230,7 @@ h6,
 }
 
 .page-header {
-    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/carousel-2.jpg) center center no-repeat;
+    background: linear-gradient(to right, rgba(23, 80, 48) 0%, rgba(2, 36, 91, 0) 100%), url(../img/carousel-2.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -271,7 +271,7 @@ h6,
     border: none;
     outline: none !important;
     padding: 18px 20px 20px 28px;
-    background: var(--primary);
+    background: var(--dark);
 }
 
 @media (max-width: 992px) {
@@ -292,7 +292,7 @@ h6,
     display: block;
     width: 60px;
     height: 60px;
-    background: var(--primary);
+    background: var(--dark);
     border-radius: 100%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -307,7 +307,7 @@ h6,
     display: block;
     width: 60px;
     height: 60px;
-    background: var(--primary);
+    background: var(--dark);
     border-radius: 100%;
     transition: all 200ms;
 }
@@ -423,7 +423,7 @@ h6,
     display: flex;
     align-items: center;
     text-align: center;
-    background: rgba(2, 36, 91, .7);
+    background: #9a710965;
     transition: .5s;
 }
 
@@ -549,7 +549,7 @@ h6,
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    background: var(--primary);
+    background: var(--dark);
     border-radius: 45px;
     font-size: 22px;
     transition: .5s;
@@ -565,7 +565,7 @@ h6,
     left: -100%;
     display: flex;
     align-items: center;
-    background: var(--primary);
+    background: var(--dark);
     transition: .5s;
 }
 

@@ -2823,8 +2823,8 @@ fieldset:disabled .btn {
 }
 .btn-dark {
   color: #fff;
-  background-color: #02245b;
-  border-color: #02245b;
+  background-color: #9a7009;
+  border-color: #9a7009;
 }
 .btn-dark:hover {
   color: #fff;
@@ -6853,7 +6853,7 @@ fieldset:disabled .btn {
   background-color: #f5f5f5 !important;
 }
 .bg-dark {
-  background-color: #02245b !important;
+  background-color: #0c4128 !important;
 }
 .bg-body {
   background-color: #fff !important;
